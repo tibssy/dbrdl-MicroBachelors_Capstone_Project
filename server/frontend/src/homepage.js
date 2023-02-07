@@ -6,15 +6,13 @@ class HomePage extends React.Component {
     return (
       <div>
         <div style={{display:"flex"}}>
-        <img src='/cardealership.jpeg' style={{width: "300px"}}/>
+        <img class="rounded shadow" src='/cardealership.jpeg' style={{width: "300px"}}/>
         <div style={{margin:"100px"}}>
-             <span style={{margin:"60px"}}>
-             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-               </span >
+                <span style={{margin:"15px"}}>
+                    "Welcome to Best Car Dealership, where we offer a wide range of vehicles to suit your driving needs. With our knowledgeable sales team, state-of-the-art facilities, and exceptional customer service, we are committed to making your car-buying experience enjoyable and stress-free. Browse our inventory online or visit us in-store to find the perfect vehicle for you. Let us help you drive home in style today!"
+                </span >
            </div>
-
         </div>
-        
       </div>
     );
   }
